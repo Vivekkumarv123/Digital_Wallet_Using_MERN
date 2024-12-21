@@ -1,122 +1,70 @@
-# Digital_Wallet_Using_MERN
+# Getting Started with Create React App
 
-# Digital Payment Wallet (Paytm Clone)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a **Digital Payment Wallet** application built with **MERN (MongoDB, Express, React, Node.js)** technology stack. The app is designed to replicate a basic digital wallet, like **Paytm**, allowing users to view their wallet balance, transaction history, and perform common wallet activities like adding funds, making payments, and more.
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **User Authentication**: Login and sign up functionality.
-- **Dashboard**: Display wallet balance, recent transactions, and quick actions.
-- **Transaction History**: View past transactions (credit, debit).
-- **Wallet Management**: Add money, transfer money, and recharge options.
-- **Profile Page**: View and update user profile.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Technologies Used
+### `npm test`
 
-- **Frontend**:
-  - React
-  - Material UI (for styling and components)
-  - React Router (for navigation)
-- **Backend**:
-  - Node.js
-  - Express.js
-  - MongoDB (for data storage)
-  - JWT (for authentication)
-- **Deployment**:
-  - Deployed on [Heroku](https://heroku.com) or any preferred cloud service.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Setup Instructions
+### `npm run build`
 
-Follow the steps below to get the project up and running locally.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 1. Clone the repository
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-git clone https://github.com/your-username/digital_wallet_payment.git
-cd digital_wallet_payment
-2. Install the dependencies
-For both the backend and frontend, run the following commands:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Backend:
+### `npm run eject`
 
-Navigate to the backend directory:
-bash
-Copy code
-cd backend
-Install required dependencies:
-bash
-Copy code
-npm install
-Create a .env file in the backend folder and set your environment variables (e.g., database URI, JWT secret, etc.).
-Frontend:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Navigate to the frontend directory:
-bash
-Copy code
-cd frontend
-Install required dependencies:
-bash
-Copy code
-npm install
-3. Start the development server
-Backend: Start the backend server:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-bash
-Copy code
-npm run dev
-Frontend: Start the frontend server:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-bash
-Copy code
-npm start
-Now you can access the app at http://localhost:3000 in your browser.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Usage
-Once the app is running, you can:
+## Learn More
 
-Sign Up: Create a new account.
-Login: Log in using your credentials.
-Dashboard: View your wallet balance and recent transactions.
-Add Money: Add funds to your wallet.
-Send Money: Send money to others.
-Profile: View and update your profile information.
-Screenshots
-Dashboard:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Wallet:
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Transactions:
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Future Enhancements
-Add payment gateway integration (e.g., Paytm, Razorpay, etc.).
-Improve transaction history with filters.
-Implement push notifications for transactions.
-Add transaction categories for better organization.
-Implement a multi-language feature.
-Contributing
-Feel free to fork the project, create issues, and submit pull requests. If you would like to contribute, please follow these steps:
+### Making a Progressive Web App
 
-Fork the repo
-Create a new branch (git checkout -b feature-branch)
-Commit your changes (git commit -am 'Add new feature')
-Push to the branch (git push origin feature-branch)
-Create a new Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Thank you for checking out this project!
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
